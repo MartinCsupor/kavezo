@@ -27,3 +27,8 @@ nav a:hover {
 nav a:first-child {
     font-size: 1.5em;
 }
+
+footer{
+    background-color: #1f5b25;
+    color: white;
+}
