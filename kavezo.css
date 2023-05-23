@@ -60,18 +60,29 @@ footer{
 }
 
 .negyzet {
-    height: 100px;
-    width: 200px;
-    background-color: black 65%;
-    
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 300px;
+    width: 500px;
+    background-color: black;
 }
 
-.footer {
-    background-color: #1f5b25;
-    color:#fff;
+.fooldalh {
+    position: relative;
+    top: 20px;
+    color: white;
+    font-size: 2rem;
 }
 
-footer li>img {
-    width: 15px;
-    margin-right: 10px;
+.fooldalp {
+    position: relative;
+    top: 30px;
+    left: 70px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.foikon {
+    width: 100px;
 }
