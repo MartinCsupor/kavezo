@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 
 body {
-    background-image: url(images/kavek/coffee-171653_1920.jpg);
+    background-color: bisque;
+}
+
+.fooldal {
+    background-image: url(images/kavek/fooldalhatter.jpg);
     background-repeat: no-repeat;
 }
 
@@ -31,4 +35,11 @@ nav a:first-child {
 footer{
     background-color: #1f5b25;
     color: white;
+}
+
+.negyzet {
+    height: 100px;
+    width: 200px;
+    background-color: black 65%;
+    
 }
