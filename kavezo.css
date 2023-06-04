@@ -4,9 +4,17 @@ body {
     background-color: bisque;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
+
 .fooldal {
     background-image: url(images/kavek/fooldalhatter.jpg);
     background-repeat: no-repeat;
+}
+
+.clover {
+    height: 40px;
 }
 
 h1 {
@@ -35,7 +43,14 @@ h1 {
     font-variant: small-caps;
 }
 
-.container-fluid {
+#napiajanlat {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+nav {
     background-color: #1f5b25;
     padding: 15px;
 }
@@ -54,9 +69,25 @@ nav a:first-child {
     font-size: 1.5em;
 }
 
-footer{
+.banner {
+    background-image: url(images/kavek/banner2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
+footer {
     background-color: #1f5b25;
     color: white;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer li>img {
+    width: 15px;
+    margin-right: 10px;
 }
 
 .negyzet {
@@ -66,6 +97,8 @@ footer{
     height: 300px;
     width: 500px;
     background-color: black;
+    opacity: 0.9;
+    border-radius: 10px;
 }
 
 .fooldalh {
@@ -84,5 +117,33 @@ footer{
 }
 
 .foikon {
-    width: 100px;
+    width: 125px;
+    position: relative;
+    top: 35px;
+    left: 200px;
+}
+
+.blogkep1 {
+    width: 350px;
+}
+
+.blogkep2 {
+    height: 500px;
+    padding-bottom: 50px;
+}
+
+.blogh1 {
+    text-align: center;
+}
+
+.szoveg1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: center;
+}
+
+.szoveg2 {
+    font-size: large;
+    font-weight: 400;
 }
